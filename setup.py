@@ -12,6 +12,7 @@ setuptools.setup(
     maintainer_email='ibragim.ai95@gmail.com',
     description='PyDecompress eases the process of extracting contents from different types of archives.',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/ibragim64/pydecompress',
     packages=['pydecompress'],
     classifiers=[
