@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='pydecompress',
-    version='0.0.1',
+    version='0.0.2',
     author='Ibragim Abubakarov',
     author_email='ibragim.ai95@gmail.com',
     maintainer='Ibragim Abubakarov',
@@ -13,8 +13,8 @@ setuptools.setup(
     description='PyDecompress eases the process of extracting contents from different types of archives.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/ibragim64/pydecompress',
-    packages=['pydecompress'],
+    url='https://github.com/polkovnik-z/pydecompress',
+    packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",

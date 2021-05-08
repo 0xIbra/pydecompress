@@ -1,7 +1,25 @@
-# PyDecompress
-> A Python package that allows you to extract contents from different types of archives easily.
+[PyDecompress](https://github.com/polkovnik-z/pydecompress)
+==============
+Lightweight package that allows you to decompress archive files.
 
-## Usage
+##### Supported formats
+ - `.zip`
+ - `.tar`
+ - `.tar.gz`
+ - `.tar.xz`
+ - `.tar.bz2`
+ - `.tar.xz`
+ - `.tar.Z` - Requires the Linux **uncompress** package.
+
+Installation
+------------
+via **pip**:
+```bash
+pip install pydecompress
+```
+
+Usage example
+-----
 ```python
 from pydecompress.extractor import Extractor
 
